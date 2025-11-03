@@ -1,0 +1,49 @@
+## Cursor AI Rules for Web Development
+
+### General Guidelines
+- **Follow Kul Elektronik's hierarchy and design structure**: The new website should maintain a consistent look and feel with https://www.kulelektronik.com/.
+- **Use SvelteKit, Tailwind CSS, and Vite**: All code must be written strictly using these technologies.
+- **Only Tailwind for styling**: No external CSS or frameworks apart from Tailwind.
+- **Maintain SvelteKit's folder structure**: Do not modify or create non-standard folder arrangements.
+- **Clear and professional coding style**: Maintain clean, well-documented, and structured code.
+- **Avoid unnecessary code**: Keep everything as minimal and optimized as possible.
+- **Modern and intelligent look**: Design must be sleek and smart, using Tailwind styles accordingly.
+- **Responsive Design**: Ensure full mobile and desktop compatibility.
+- **Follow MVVM principles**: Maintain a clean separation of concerns in code.
+- **Do not remove imported libraries**: Keep all necessary imports.
+- **Minimalist and 3D-friendly design**: Icons and buttons should be both simple and modern with a 3D aesthetic.
+- **Use Kul Elektronik's fonts**: Maintain consistency with their typography.
+
+### UI Features
+- **Dark/Light Mode Toggle**: Implement a button allowing users to switch between dark and light themes.
+- **Navigation and Components**:
+  - Header with site navigation.
+  - Footer with relevant links and company information.
+  - Main content area structured for chatbot UI.
+- **Chatbot UI (Phase 1 - UI Only)**:
+  - Design should be based on the provided chatbot UI reference.
+  - Placeholder areas for chatbot interactions.
+  - Functional buttons for microphone and options.
+  
+### Phase 2 Features (Future Implementation)
+- **Chatbot Functionality**: API integration for chatbot responses.
+- **Authentication System**: User login and authentication mechanisms.
+
+### File Structure (Before Coding)
+- **`src/routes`**: Contains page components structured according to SvelteKit conventions.
+- **`src/lib/components`**: Reusable UI components (e.g., buttons, dark mode toggle, chatbot UI components).
+- **`src/lib/styles`**: Tailwind configuration and any additional style-related utilities.
+- **`src/lib/stores`**: State management for dark mode and UI behavior.
+- **`static/`**: Contains assets like icons and images.
+
+### Dark/Light Mode Implementation
+- **State Management**:
+  - Use Svelte stores to manage theme switching.
+  - Save user preference in local storage.
+- **Toggle Button**:
+  - Floating button in the UI for easy access.
+  - Smooth transitions between themes.
+  - Use Tailwind’s dark mode utilities.
+
+This document ensures the development follows a structured approach aligned with Kul Elektronik’s branding and UX/UI expectations.
+
