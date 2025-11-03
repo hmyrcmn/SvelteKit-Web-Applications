@@ -1,0 +1,1 @@
+String TTS_INPUT = "efendim , nasıl yarıdımcı olabilirim ";
