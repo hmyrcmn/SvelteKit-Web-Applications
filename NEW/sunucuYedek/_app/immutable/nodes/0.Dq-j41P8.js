@@ -1,0 +1,1 @@
+import"../chunks/DsnmJJEf.js";import{e as i,h as l,a as m,g as p,b as a,f,n as c}from"../chunks/C_l0TPPH.js";var h=f('<link rel="icon" href="/kullogo.svg"/>');function g(n,r){var o=i();l(t=>{var s=h();a(t,s)});var e=m(o);p(e,()=>r.children??c),a(n,o)}export{g as component};
